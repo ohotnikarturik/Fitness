@@ -1,0 +1,47 @@
+.intro-button__text {
+  background: #f89513;
+  display: block;
+  padding: 14px 21px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 3px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  margin-top: 34px;
+}
+
+.intro-button__text:hover {
+  background: #131415;
+}
+
+.wrapper_intro-page {
+  background: url("../../img/background/intro.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  min-width: initial;
+}
+
+.wrapper_intro-page:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+
+.intro-page {
+  width: 172px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+

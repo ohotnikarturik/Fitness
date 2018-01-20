@@ -1,0 +1,96 @@
+.sidebar {
+    padding-top: 42px;
+    padding-right: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 180px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu__item_active .nav-menu__text {
+    color: #221f1f;
+}
+
+.nav-menu__item_active .nav-menu__icon-main {
+    background-image: url('../../img/icons side bar/main_icon_1.png');
+}
+
+.nav-menu__item_active .nav-menu__icon-comments {
+    background-image: url('../../img/icons side bar/feed_icon._1png.png');
+}
+
+.nav-menu__item_active .nav-menu__icon-services {
+    background-image: url('../../img/icons side bar/service_icon_1.png');
+}
+
+.nav-menu__item {
+    margin-bottom: 27px;
+}
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu__text {
+    font-weight: bold;
+    font-size: 12px;
+    color: #f89513;
+    text-transform: uppercase;
+    display: inline-block;
+    max-width: 125px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.nav-menu__link:hover .nav-menu__text {
+    color: #221f1f;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+}
+
+.nav-menu__icon {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.nav-menu__icon-main {
+    background: url("../../img/icons side bar/main_icon.png")  no-repeat;
+    width: 19px;
+    height: 14px;
+}
+
+.nav-menu__link:hover .nav-menu__icon-main {
+    background-image: url('../../img/icons side bar/main_icon_1.png');
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.nav-menu__icon-services {
+    background: url("../../img/icons side bar/service_icon.png") center center no-repeat;
+    width: 19px;
+    height: 14px;
+}
+
+.nav-menu__link:hover .nav-menu__icon-services {
+    background-image: url('../../img/icons side bar/service_icon_1.png');
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.nav-menu__icon-comments {
+    background: url("../../img/icons side bar/feed_icon.png") center center no-repeat;
+    width: 21px;
+    height: 19px;
+}
+
+.nav-menu__link:hover .nav-menu__icon-comments {
+    background-image: url('../../img/icons side bar/feed_icon._1png.png');
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
